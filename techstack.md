@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kalwabed/supabase is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - [Gradle](https://www.gradle.org/) – Java Build Tools
@@ -42,11 +43,13 @@ kalwabed/supabase is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kalwabed/supabase is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
@@ -87,14 +90,15 @@ kalwabed/supabase is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kalwabed/supabase](https://github.com/kalwabed/supabase)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|124<br/>Tools used|11/10/23 <br/>Report generated|
+|126<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -482,9 +486,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (80)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (82)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (73)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (75)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -529,10 +533,12 @@ Full tech stack [here](/techstack.md)
 |[expo](https://www.npmjs.com/expo)|v39.0.4|11/05/20|Paul Copplestone |MIT|N/A|
 |[file-loader](https://www.npmjs.com/file-loader)|v6.2.0|02/17/21|Jonathan Summers-Muir |MIT|N/A|
 |[gray-matter](https://www.npmjs.com/gray-matter)|v4.0.2|02/17/21|Jonathan Summers-Muir |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.3.0|11/13/20|duncanhealy |MIT|N/A|
 |[jasmine-core](https://www.npmjs.com/jasmine-core)|v3.7.1|07/14/21|geromegrignon |MIT|N/A|
 |[jest-cli](https://www.npmjs.com/jest-cli)|v27.0.6|02/27/21|Ademílson F. Tonato |MIT|N/A|
 |[js-yaml](https://www.npmjs.com/js-yaml)|v3.14.1|11/02/20|Copple |MIT|N/A|
 |[karma-coverage](https://www.npmjs.com/karma-coverage)|v2.0.3|07/14/21|geromegrignon |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.4.0|11/13/20|duncanhealy |MIT|N/A|
 |[markdown-toc](https://www.npmjs.com/markdown-toc)|v1.2.0|02/22/21|Jonathan Summers-Muir |MIT|N/A|
 |[minimist](https://www.npmjs.com/minimist)|v1.2.5|11/02/20|Copple |MIT|[CVE-2021-44906](https://github.com/advisories/GHSA-xvch-5gv4-984h) (Critical)|
 |[nanoid](https://www.npmjs.com/nanoid)|v3.1.23|03/23/21|phamhieu |MIT|[CVE-2021-23566](https://github.com/advisories/GHSA-qrpm-p2h7-hrv2) (Moderate)|
@@ -584,4 +590,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
