@@ -1,11 +1,12 @@
 repo_name: kalwabed/supabase
 report_id: 927c79a9aa83c6f0406e9a9b667d9668
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T12:47:08+00:00'
+timestamp: '2024-01-05T08:54:38+00:00'
 requested_by: inian
 provider: github
 branch: master
-detected_tools_count: 124
+detected_tools_count: 126
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/android/app/src/main/kotlin/io/supabase/supabase_demo/MainActivity.kt
   detection_source: examples/flutter-user-management/android/app/src/main/kotlin/io/supabase/supabase_demo/MainActivity.kt
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -55,7 +60,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: schemas/world/_init.sql
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/docker/dockerfiles/postgres/00-initial-schema.sql
+  detection_source: docker/dockerfiles/postgres/00-initial-schema.sql
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-01-28 05:19:57.000000000 Z
 - name: TypeScript
@@ -67,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: Android SDK
   description: An SDK that provides you the API libraries and developer tools necessary
@@ -78,7 +85,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
-  detection_source_url: examples/flutter-user-management/android/app/build.gradle
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/android/app/build.gradle
   detection_source: examples/flutter-user-management/android/app/build.gradle
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -92,7 +99,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -104,7 +111,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
-  detection_source: examples/sveltejs-todo-list/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-auth-tailwind/package.json
+  detection_source: examples/nextjs-auth-tailwind/package.json
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-24 12:22:26.000000000 Z
 - name: Flutter
@@ -116,6 +124,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.yaml
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: phamhieu
   last_updated_on: 2021-07-20 03:03:01.000000000 Z
@@ -128,8 +137,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: examples/nextjs-auth-tailwind/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-auth-tailwind/yarn.lock
+  detection_source: examples/nextjs-auth-tailwind/package.json
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-24 12:22:26.000000000 Z
 - name: Node.js
@@ -141,7 +150,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: React
@@ -154,8 +164,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
+  detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
 - name: React Native
@@ -167,6 +177,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
@@ -180,7 +191,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
   detection_source: examples/react-todo-list-collaborative/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-02-14 08:58:18.000000000 Z
@@ -193,7 +204,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -206,6 +217,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package.json
   detection_source: examples/sveltejs-todo-list/package.json
   last_updated_by: duncanhealy
   last_updated_on: 2020-11-13 10:38:58.000000000 Z
@@ -219,7 +231,7 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: examples/nuxtjs-user-management/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nuxtjs-user-management/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -233,8 +245,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: examples/vue3-ts-todo-list/babel.config.js
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/expo-todo-list/babel.config.js
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-05 07:44:13.000000000 Z
 - name: Cypress
@@ -248,7 +260,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: examples/sveltejs-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package-lock.json
   detection_source: examples/sveltejs-todo-list/package.json
   last_updated_by: duncanhealy
   last_updated_on: 2020-11-13 10:38:58.000000000 Z
@@ -261,6 +273,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -271,7 +284,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
-  detection_source: web/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: ESLint
@@ -283,7 +297,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: examples/with-stencil/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package.json
+  detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
 - name: Git
@@ -294,6 +309,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -303,6 +319,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/.github/workflows/prettier.yml
   detection_source: ".github/workflows/prettier.yml"
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-21 10:59:48.000000000 Z
@@ -315,6 +332,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/android/app/build.gradle
   detection_source: examples/flutter-user-management/android/app/build.gradle
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -326,6 +344,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -339,8 +358,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: Karma
@@ -352,6 +371,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -365,8 +385,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: examples/nextjs-auth-tailwind/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-auth-tailwind/yarn.lock
+  detection_source: examples/nextjs-auth-tailwind/package.json
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-24 12:22:26.000000000 Z
 - name: Puppeteer
@@ -378,6 +398,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/with-stencil/package.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -390,6 +411,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Load Balancer / Reverse Proxy
   image_url: https://img.stackshare.io/service/5126/default_0a34be001ec8247c641508aa468564fb386bc50c.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/docker/supabase-traefik/traefik/docker-compose.yml
   detection_source: docker/supabase-traefik/traefik/docker-compose.yml
   last_updated_by: Yannick Milhahn
   last_updated_on: 2021-05-23 23:05:27.000000000 Z
@@ -403,7 +425,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: www/webpack.config.js
   last_updated_by: mildtomato
   last_updated_on: 2020-11-26 05:47:51.000000000 Z
@@ -415,7 +437,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: examples/react-todo-list/yarn.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-auth-tailwind/yarn.lock
+  detection_source: examples/nextjs-auth-tailwind/yarn.lock
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-24 12:22:26.000000000 Z
 - name: npm
@@ -426,6 +449,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-22 09:58:32.000000000 Z
@@ -437,7 +461,8 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/10738/serverless-RealtimeApp-logo.png
-  detection_source: docker/supabase-traefik/docker-compose.yml
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/docker/docker-compose.yml
+  detection_source: docker/docker-compose.yml
   last_updated_by: Inian
   last_updated_on: 2021-07-20 13:17:02.000000000 Z
 - name: Android OS
@@ -449,7 +474,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
-  detection_source_url: examples/flutter-user-management/android/app/build.gradle
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/android/app/build.gradle
   detection_source: examples/flutter-user-management/android/app/build.gradle
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -462,6 +487,7 @@ tools:
   category: Application Utilities
   sub_category: API Gateway
   image_url: https://ucarecdn.com/3cf09daa-4e1e-404e-a612-f8a91c661db2/
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/docker/dockerfiles/kong/Dockerfile
   detection_source: docker/dockerfiles/kong/Dockerfile
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-01-28 05:19:57.000000000 Z
@@ -475,7 +501,7 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
-  detection_source_url: examples/nextjs-live-tracker-map/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-live-tracker-map/package-lock.json
   detection_source: examples/nextjs-live-tracker-map/package.json
   last_updated_by: phamhieu
   last_updated_on: 2021-03-23 01:57:11.000000000 Z
@@ -488,6 +514,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kalwabed/supabase
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -499,7 +526,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: web/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/web/package-lock.json
   detection_source: web/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-01-05 19:54:06.000000000 Z
@@ -512,6 +539,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-23 04:45:28.000000000 Z
@@ -520,6 +548,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package.json
   detection_source: examples/sveltejs-todo-list/package.json
   last_updated_by: duncanhealy
   last_updated_on: 2020-11-13 10:38:58.000000000 Z
@@ -528,6 +557,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package.json
   detection_source: examples/sveltejs-todo-list/package.json
   last_updated_by: duncanhealy
   last_updated_on: 2020-11-13 10:38:58.000000000 Z
@@ -541,7 +571,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -555,7 +585,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -569,7 +599,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -583,7 +613,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -597,7 +627,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -611,7 +641,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -625,7 +655,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -639,7 +669,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -653,7 +683,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -667,7 +697,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -681,7 +711,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-05 12:57:40.000000000 Z
@@ -695,7 +725,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
-  detection_source_url: web/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/web/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -709,7 +739,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16352/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/with-stencil/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/with-stencil/package-lock.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -723,7 +753,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17125/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
-  detection_source_url: examples/with-stencil/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/with-stencil/package-lock.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -737,8 +767,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
-  detection_source: examples/sveltejs-todo-list/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
+  detection_source: examples/react-todo-list-collaborative/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-02-14 08:58:18.000000000 Z
 - name: "@testing-library/react"
@@ -752,8 +782,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
-  detection_source: examples/react-user-management/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
+  detection_source: examples/react-todo-list-collaborative/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-02-14 08:58:18.000000000 Z
 - name: "@types/classnames"
@@ -766,7 +796,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-17 17:05:11.000000000 Z
@@ -780,7 +810,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -794,8 +824,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: "@types/node"
@@ -808,8 +838,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: "@types/puppeteer"
@@ -822,7 +852,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16766/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
-  detection_source_url: examples/with-stencil/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/with-stencil/package-lock.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -836,8 +866,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
+  detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
 - name: "@types/react-dom"
@@ -850,8 +880,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
+  detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
 - name: "@types/react-native"
@@ -864,7 +894,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16569/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
@@ -878,8 +908,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
-  detection_source: examples/with-stencil/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
+  detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
 - name: "@typescript-eslint/parser"
@@ -892,8 +922,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
-  detection_source: examples/with-stencil/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
+  detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
 - name: "@vue/cli-plugin-babel"
@@ -906,7 +936,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -920,7 +950,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -934,7 +964,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16851/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -948,7 +978,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -962,7 +992,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16824/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -976,7 +1006,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18076/image.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -990,7 +1020,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18591/default_ff37252c783e39778181a2b561afd470c5bdef8b.png
-  detection_source_url: web/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/web/package-lock.json
   detection_source: web/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-10-12 03:08:30.000000000 Z
@@ -1004,7 +1034,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: examples/nextjs-auth-tailwind/yarn.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-auth-tailwind/yarn.lock
   detection_source: www/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-23 04:45:28.000000000 Z
@@ -1018,8 +1048,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: examples/vue3-ts-todo-list/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/nuxtjs-user-management/package.json
   last_updated_by: erkeen
   last_updated_on: 2021-03-26 19:51:36.000000000 Z
 - name: eslint-plugin-prettier
@@ -1032,7 +1062,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -1046,7 +1076,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -1060,7 +1090,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: examples/vue3-ts-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/vue3-ts-todo-list/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -1074,7 +1104,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-05 07:44:13.000000000 Z
@@ -1088,7 +1118,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: examples/nuxtjs-user-management/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nuxtjs-user-management/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-17 17:05:11.000000000 Z
@@ -1102,10 +1132,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
-  detection_source_url: web/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/web/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-17 17:05:11.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package-lock.json
+  detection_source: examples/sveltejs-todo-list/package.json
+  last_updated_by: duncanhealy
+  last_updated_on: 2020-11-13 10:38:58.000000000 Z
 - name: jasmine-core
   description: Official packaging of Jasmine's core files for use by Node.js projects
   package_url: https://www.npmjs.com/jasmine-core
@@ -1116,7 +1160,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -1130,7 +1174,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/with-stencil/package.json
   last_updated_by: Ademílson F. Tonato
   last_updated_on: 2021-02-27 12:46:19.000000000 Z
@@ -1144,7 +1188,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: web/package.json
   last_updated_by: Copple
   last_updated_on: 2020-11-02 03:08:02.000000000 Z
@@ -1158,10 +1202,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package-lock.json
+  detection_source: examples/sveltejs-todo-list/package.json
+  last_updated_by: duncanhealy
+  last_updated_on: 2020-11-13 10:38:58.000000000 Z
 - name: markdown-toc
   description: Generate a markdown TOC
   package_url: https://www.npmjs.com/markdown-toc
@@ -1172,7 +1230,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17609/default_3a2c894d178d46e5b78f3e41ac6b2ced48b414c8.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-22 11:09:16.000000000 Z
@@ -1186,7 +1244,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: web/package.json
   last_updated_by: Copple
   last_updated_on: 2020-11-02 03:08:02.000000000 Z
@@ -1207,7 +1265,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/nextjs-live-tracker-map/package.json
   last_updated_by: phamhieu
   last_updated_on: 2021-03-23 01:57:11.000000000 Z
@@ -1228,7 +1286,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
-  detection_source_url: examples/nuxtjs-user-management/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nuxtjs-user-management/package-lock.json
   detection_source: examples/nuxtjs-user-management/package.json
   last_updated_by: erkeen
   last_updated_on: 2021-03-26 19:51:36.000000000 Z
@@ -1242,8 +1300,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/nextjs-auth-tailwind/package.json
   last_updated_by: Carlos Stenzel
   last_updated_on: 2021-05-24 12:22:26.000000000 Z
   vulnerabilities:
@@ -1263,7 +1321,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: examples/sveltejs-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/sveltejs-todo-list/package-lock.json
   detection_source: examples/sveltejs-todo-list/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-11 14:09:58.000000000 Z
@@ -1277,7 +1335,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16265/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: examples/nextjs-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-todo-list/package-lock.json
   detection_source: examples/nextjs-todo-list/package.json
   last_updated_by: Copple
   last_updated_on: 2020-10-09 06:35:46.000000000 Z
@@ -1291,8 +1349,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/nextjs-todo-list/package.json
   last_updated_by: Copple
   last_updated_on: 2020-10-09 06:35:46.000000000 Z
 - name: react-copy-to-clipboard
@@ -1305,7 +1363,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1319,8 +1377,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
+  detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
 - name: react-ga
@@ -1333,7 +1391,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18260/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1347,7 +1405,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1360,6 +1418,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
@@ -1373,7 +1432,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17683/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: examples/expo-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/expo-todo-list/package-lock.json
   detection_source: examples/expo-todo-list/package.json
   last_updated_by: Thorsten Schaeff
   last_updated_on: 2020-12-22 15:52:36.000000000 Z
@@ -1387,7 +1446,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
   detection_source: examples/react-todo-list-collaborative/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-02-14 08:58:18.000000000 Z
@@ -1401,8 +1460,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/react-todo-list-collaborative/package-lock.json
-  detection_source: examples/react-user-management/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/react-todo-list-collaborative/package-lock.json
+  detection_source: examples/react-todo-list-collaborative/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-02-14 08:58:18.000000000 Z
 - name: react-syntax-highlighter
@@ -1416,7 +1475,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1430,7 +1489,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1444,7 +1503,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/nextjs-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nextjs-todo-list/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-29 05:49:59.000000000 Z
@@ -1458,7 +1517,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-22 11:09:16.000000000 Z
@@ -1472,7 +1531,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/nextjs-slack-clone/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-04-03 11:31:30.000000000 Z
@@ -1487,7 +1546,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17656/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
-  detection_source_url: www/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/www/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-22 02:15:11.000000000 Z
@@ -1508,8 +1567,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: ts-node
@@ -1522,8 +1581,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
-  detection_source: web/package.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
+  detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
 - name: tslib
@@ -1536,7 +1595,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -1550,7 +1609,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-02-17 17:05:11.000000000 Z
@@ -1564,7 +1623,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: examples/nuxtjs-user-management/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/nuxtjs-user-management/package-lock.json
   detection_source: examples/vue3-ts-todo-list/package.json
   last_updated_by: Alex Chiu
   last_updated_on: 2020-11-17 10:25:18.000000000 Z
@@ -1578,7 +1637,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: examples/angular-todo-list/package-lock.json
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/angular-todo-list/package-lock.json
   detection_source: examples/angular-todo-list/package.json
   last_updated_by: geromegrignon
   last_updated_on: 2021-07-14 21:20:57.000000000 Z
@@ -1591,7 +1650,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -1604,7 +1663,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: phamhieu
   last_updated_on: 2021-07-20 03:03:01.000000000 Z
@@ -1618,7 +1677,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: phamhieu
   last_updated_on: 2021-07-20 03:03:01.000000000 Z
@@ -1631,7 +1690,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: phamhieu
   last_updated_on: 2021-07-20 03:03:01.000000000 Z
@@ -1645,7 +1704,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: phamhieu
   last_updated_on: 2021-07-16 09:21:50.000000000 Z
@@ -1659,7 +1718,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/flutter-user-management/pubspec.lock
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/pubspec.lock
   detection_source: examples/flutter-user-management/pubspec.yaml
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
@@ -1671,6 +1730,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/kalwabed/supabase/blob/master/examples/flutter-user-management/android/app/build.gradle
   detection_source: examples/flutter-user-management/android/app/build.gradle
   last_updated_by: Pham Hieu
   last_updated_on: 2021-07-10 08:33:23.000000000 Z
